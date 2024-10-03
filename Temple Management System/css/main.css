@@ -1,0 +1,127 @@
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.main p.description,
+.content p.description,
+.box p.description {
+    font-size: 2.0em;
+    margin: 20px;
+    text-align: center;
+}
+
+.box p.gujarati-text {
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 3px;
+    margin-top: 100px;
+}
+
+footer p {
+    margin: 0;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.column {
+    float: left;
+    width: 50%; 
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f9f9; 
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box p {
+    margin-top: 10px;
+}
+
+.box-two {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    background-image: url('https://salangpurhanumanji.org/wp-content/uploads/2024/02/Kashtabhanjan-Dev-Banner-3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.box-two-inner {
+    background-color: rgb(113, 26, 14);
+    padding: 20px;
+    margin: 20px;
+    width: 40%;
+    text-align: left;
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+    opacity: 0.8;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    color: white; 
+}
+
+.box-two-inner-heading {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;  
+}
